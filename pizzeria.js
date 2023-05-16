@@ -1,12 +1,3 @@
-//coleccion  categoria
-
-{
-    "_id": {
-      "$oid": "63f658b3f51caba9a041651a"
-    },
-    "nombre": "vegana"
-  }
-
   //coleccion clientes
 
   {
@@ -33,6 +24,7 @@
     "_id": {
       "$oid": "63f65952f51caba9a0416525"
     },
+    "tienda_id": "63f65753f51caba9a0416515",
     "nombre": "gabriela",
     "apellidos": "zapata castro",
     "telefono": 123123456,
@@ -71,8 +63,14 @@
     },
     "tipo entrega": "domicilio",
     "productos": [
-      "63f65b5ff51caba9a041652e",
-      "63f65eadf51caba9a0416535"
+      {
+        "Hamburguesa": "63f65bbbf51caba9a041652f",
+        "Cantidad": 2
+      },
+      {
+        "bebida": "63f65eadf51caba9a0416535",
+        "cantidad": 2
+      }
     ],
     "repartidor_id": "63f65f61f51caba9a0416537",
     "fecha entrega": ""
